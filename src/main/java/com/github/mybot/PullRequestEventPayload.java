@@ -16,6 +16,8 @@ public class PullRequestEventPayload {
             @PullRequest.Opened @PullRequest.Reopened @PullRequest.Synchronize
             GHEventPayload.PullRequest payload) {
 
+        logger.info("Received Pull Request Event from repo: " + payload.getRepository());
+
         try {
             GithubMergeConflictsEventProcessor.processPullRequest(payload.getPullRequest());
 

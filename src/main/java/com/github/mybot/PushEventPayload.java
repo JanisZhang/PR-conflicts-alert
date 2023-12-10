@@ -16,6 +16,8 @@ public class PushEventPayload {
 
     void handlePushEvent(@Push GHEventPayload.Push pushPayload) {
 
+        logger.info("Received Push Event from repo: " + pushPayload.getRepository());
+
         String ref = pushPayload.getRef();
 
         if (!(ref.equals("refs/heads/main") || ref.equals("refs/heads/master"))) {
