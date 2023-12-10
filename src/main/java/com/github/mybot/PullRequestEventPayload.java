@@ -1,7 +1,6 @@
 package com.github.mybot;
 
 import io.quarkiverse.githubapp.event.PullRequest;
-import io.smallrye.common.constraint.NotNull;
 import org.jboss.logging.Logger;
 import org.kohsuke.github.GHEventPayload;
 

@@ -5,7 +5,6 @@ import org.jboss.logging.Logger;
 import org.kohsuke.github.*;
 
 import java.io.IOException;
-import java.util.List;
 
 /**
  * @author Janis Zhang
