@@ -5,8 +5,8 @@
 ⭐ [Star this project](https://github.com/JanisZhang/PR-conflicts-alert)
 
 ## Introduction
-The [PR Conflicts Alert](https://github.com/JanisZhang/PR-conflicts-alert) 
-GitHub App automatically labels and adds comments to PRs encountering conflicts, and removes the label after resolution.
+The [PR Conflicts Alert](https://github.com/apps/pr-conflicts-alert) GitHub 
+App automatically labels and adds comments to PRs encountering conflicts, and removes the label after resolution.
 
 The app triggers during the following events:
 - Opening or reopening a pull request
