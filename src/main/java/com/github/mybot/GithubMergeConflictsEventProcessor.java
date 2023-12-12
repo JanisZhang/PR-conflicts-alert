@@ -16,7 +16,13 @@ public class GithubMergeConflictsEventProcessor {
 
         _pullRequest = pullRequest;
 
-        if (!_isPullRequestMergeable()) {
+        Boolean mergeStatus = _isPullRequestMergeable();
+
+        if (mergeStatus == null) {
+            return;
+        }
+
+        if (!mergeStatus) {
             _notifyIfPRNotMerageable();
 
             return;
@@ -67,16 +73,14 @@ public class GithubMergeConflictsEventProcessor {
                 retry_count++;
             }
 
-            logger.warn("Reached max retry times in pr"
-                    + _pullRequest.getHtmlUrl()
-                    + " assuming its still merge-able.");
+            logger.warn("Reached max retry times in pr: "
+                    + _pullRequest.getHtmlUrl());
 
-            return true;
+            return null;
 
         } catch (IOException | InterruptedException e) {
 
-            logger.error("Couldn't obtain merge-able status, assuming its " +
-                    "still merge-able"+ e);
+            logger.error("Couldn't obtain merge-able status: "+ e);
         }
 
         return true;
