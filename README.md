@@ -1,52 +1,28 @@
-# my-github-app
+![img.png](https://gist.githack.com/JanisZhang/e072587fe7c765e2b7744adc34c2a56a/raw/eda048d163496d8871dc6c4b33b1199ce64f9f37/logo.png)
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+⭐ [Star this project](https://github.com/JanisZhang/PR-conflicts-alert)
 
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+## Introduction
 
-## Running the application in dev mode
+The [PR Conflicts Alert](https://github.com/JanisZhang/PR-conflicts-alert) GitHub App, powered by [Quarkus](https://quarkus.io/), it auto-labels PRs encountering conflicts, removing the label post-resolution.
 
-You can run your application in dev mode that enables live coding using:
-```shell script
-./mvnw compile quarkus:dev
-```
+## Getting Started
 
-> **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
+- add a `Merge Conflicts` label to repo.
+-  [Install](https://github.com/apps/pr-conflicts-alert).
 
-## Packaging and running the application
+## Why
+PR conflicts often arose due to unnoticed changes or outdated code, causing delays in the review process. By automating conflict detection and providing immediate alerts, this app fosters smoother collaboration between reviewers and developers, effectively addressing these issues.
 
-The application can be packaged using:
-```shell script
-./mvnw package
-```
-It produces the `quarkus-run.jar` file in the `target/quarkus-app/` directory.
-Be aware that it’s not an _über-jar_ as the dependencies are copied into the `target/quarkus-app/lib/` directory.
 
-The application is now runnable using `java -jar target/quarkus-app/quarkus-run.jar`.
+## Features
 
-If you want to build an _über-jar_, execute the following command:
-```shell script
-./mvnw package -Dquarkus.package.type=uber-jar
-```
+The app triggers during the following events:
 
-The application, packaged as an _über-jar_, is now runnable using `java -jar target/*-runner.jar`.
+- Opening or reopening a pull request
+- Synchronization of pull requests (force-push)
+- When pushing new code to the master/main branch, it monitors all open pull requests for conflicts.
 
-## Creating a native executable
+## Author
 
-You can create a native executable using: 
-```shell script
-./mvnw package -Dnative
-```
-
-Or, if you don't have GraalVM installed, you can run the native executable build in a container using: 
-```shell script
-./mvnw package -Dnative -Dquarkus.native.container-build=true
-```
-
-You can then execute your native executable with: `./target/my-github-app-1.0.0-SNAPSHOT-runner`
-
-If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.
-
-## Related Guides
-
-- GitHub App ([guide](https://quarkiverse.github.io/quarkiverse-docs/quarkus-github-app/dev/index.html)): Automate GitHub tasks with a GitHub App
+**GitHub**: [Janis Zhang](https://github.com/JanisZhang)
