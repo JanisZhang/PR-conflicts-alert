@@ -1,4 +1,6 @@
-![img.png](https://gist.githack.com/JanisZhang/e072587fe7c765e2b7744adc34c2a56a/raw/eda048d163496d8871dc6c4b33b1199ce64f9f37/logo.png)
+<p align="center">
+  <img src="https://gist.githack.com/JanisZhang/e072587fe7c765e2b7744adc34c2a56a/raw/a3bd36899273780c471efbee1bde1442bef12dbe/logo.png">
+</p>
 
 ⭐ [Star this project](https://github.com/JanisZhang/PR-conflicts-alert)
 
