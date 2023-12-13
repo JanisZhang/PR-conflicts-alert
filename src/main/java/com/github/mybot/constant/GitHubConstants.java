@@ -9,8 +9,8 @@ public class GitHubConstants {
             "\n\nCreated by" +
             " [<img src=\"https://gistcdn.githack" +
             ".com/JanisZhang/68c43cbcad79a804f634aa6d43494573/raw/956722637be983f28c546232ca3b5184f137865c/logo.png\" valign=\"bottom\"/> " +
-            "**merge_conflicts_alert[bot]**](https://github" +
-            ".com/apps/merge-conflicts-alert)";
+            "**PR_Conflicts_Alert[bot]**](https://github" +
+            ".com/apps/pr-conflicts-alert)";
 
     public static final String LABEL_NAME = "Merge Conflicts";
     public static final int MAX_RETRY_TIMES = 10;
