@@ -73,7 +73,7 @@ public class GithubMergeConflictsEventProcessor {
                 retry_count++;
             }
 
-            logger.warn("Reached max retry times in pr: "
+            logger.error("Reached max retry times in pr: "
                     + _pullRequest.getHtmlUrl());
 
             return null;
