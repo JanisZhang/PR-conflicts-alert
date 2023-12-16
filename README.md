@@ -1,6 +1,6 @@
-<p align="center">
+<a href="https://github.com/apps/pr-conflicts-alert">
   <img height="200" width="500" src="https://gist.githack.com/JanisZhang/e072587fe7c765e2b7744adc34c2a56a/raw/a3bd36899273780c471efbee1bde1442bef12dbe/logo.png">
-</p>
+</a>
 
 ⭐⭐  [Star this project](https://github.com/JanisZhang/PR-conflicts-alert) ⭐⭐
 
