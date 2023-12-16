@@ -1,6 +1,5 @@
 <p align="center">
-  <img height="200" width="500" src="https://gist.githack.
-com/JanisZhang/e072587fe7c765e2b7744adc34c2a56a/raw/a3bd36899273780c471efbee1bde1442bef12dbe/logo.png">
+  <img height="200" width="500" src="https://gist.githack.com/JanisZhang/e072587fe7c765e2b7744adc34c2a56a/raw/a3bd36899273780c471efbee1bde1442bef12dbe/logo.png">
 </p>
 
 ⭐⭐  [Star this project](https://github.com/JanisZhang/PR-conflicts-alert) ⭐⭐
@@ -16,8 +15,7 @@ The app triggers during the following events:
   pull requests for conflicts.
 
 <p align="center">
-  <img height="350" src="https://gist.githack.
-com/JanisZhang/e072587fe7c765e2b7744adc34c2a56a/raw/9cce7b9e1be8ee8105cc4f5afa14b483b0373578/demo.png">
+  <img height="350" src="https://gist.githack.com/JanisZhang/e072587fe7c765e2b7744adc34c2a56a/raw/9cce7b9e1be8ee8105cc4f5afa14b483b0373578/demo.png">
 </p>
 
 
