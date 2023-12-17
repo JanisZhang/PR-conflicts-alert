@@ -4,6 +4,10 @@
 
 ⭐⭐  [Star this project](https://github.com/JanisZhang/PR-conflicts-alert) ⭐⭐
 
+## Getting Started
+- add a `Merge Conflicts` label to repo.
+- [Install PR Conflicts Alert App](https://github.com/apps/pr-conflicts-alert).
+
 ## Introduction 
 The [PR Conflicts Alert](https://github.com/apps/pr-conflicts-alert) GitHub 
 App automatically labels and adds comments to PRs encountering conflicts, and removes the label after resolution.
@@ -22,9 +26,3 @@ The app triggers during the following events:
 ## Why
 PR conflicts often arose due to unnoticed changes or outdated code, causing delays in the review process. By automating conflict detection and providing immediate alerts, this app fosters smoother collaboration between reviewers and developers.
 
-## Getting Started
-- add a `Merge Conflicts` label to repo.
-- [Install PR Conflicts Alert App](https://github.com/apps/pr-conflicts-alert) .
-
-## Author
-**GitHub**: [Janis Zhang](https://github.com/JanisZhang)
